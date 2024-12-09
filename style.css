@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(115, 255, 236, 0.973);
+  letter-spacing: 0.2rem;
+}
+
+a :hover {
+  background-color: #969696;
+}
+
+li :hover {
+  background-color: #969696;
+  display: inline-block;
+}
+
+h1 {
+  color: azure;
+  letter-spacing: 0.5rem;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-color: #0028ff white;
+}
+
+p {
+  margin: 2.5rem;
+  color: aliceblue;
+  text-align: left;
+  width: 500px;
+  display: inline-block;
+}
+
+h2 {
+  background-image: linear-gradient(#0028ff, rgb(0, 0, 0));
+}
+
+h3 {
+  margin: 2rem;
+  color: #0028ff;
+}
+
+/* Area of the Técnology first three notice*/
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url(./capa\ header\ 2.jpg);
+  background-size: cover;
+}
+nav {
+  text-align: right;
+  margin-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+#section__tecnology__one {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  color: #ffffff;
+}
+.bloco1 {
+  display: flex;
+}
+
+/* Area of the Técnology Second three notice*/
+
+.bloco2 {
+  display: flex;
+}
+
+/* Area of the Saude */
+#section__saude__one {
+  background-color: #e6a3a3c9;
+}
+
+.conteiner__saude__one {
+  display: flex;
+}
+
+.conteiner__saude__two {
+  display: flex;
+}
+
+.h2__saude {
+  background-image: linear-gradient(#d42020, #e6a3a3c9);
+}
+
+.h3__saude {
+  color: #d42020;
+}
+
+.img__saude {
+  border-color: #d42020 #000000;
+}
+
+.conteiner__saude__one {
+  color: #000000;
+}
+
+footer {
+  text-align: center;
+  background-color: #000000;
+  padding-left: 12rem;
+}
